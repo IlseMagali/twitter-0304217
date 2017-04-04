@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>TWITTER</title>
+    <script src="assets/twitter.js" ></script>
+  </head>
+  <body>
+    <p>Contador de clicks <span id="contadorClicks"></p>
+
+    <h1>Twitter</h1>
+    <br>
+    <textarea id="textArea" placeholder="Escribe tu twitter..." rows="8" cols="80" onkeypress="contarCaracteres();"></textarea><br>
+    <br>
+    <p>Autor de tweet:</p>
+    <input id="nombreAutor" plachoder="nombre del autor">
+    <button id="botonEnviar" onclick="agregarTweetALista();">Enviar</button>
+    <p>Contador de caracteres <n\> <span id="contadorCaracteres">0</span> <span> / 140 </span></p>
+    <hr>
+    <h2>Lista de tweets</h2>
+    <section id="sectionTweets">
+
+    </section>
+  </body>
+</html>
